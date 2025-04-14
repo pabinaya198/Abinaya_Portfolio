@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family:Arial,sans-serif;
+    line-height:1.6;
+    background-image: url(../Abinaya_Portfolio/media/bg-img.jpg);
+    background-color: #24252a;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: cursive;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255,0.54);
+}
+header li{
+    display: inline-flex;
+    padding: 10px;
+    list-style-type: none;
+}
+.nav-links{
+    color: rgba(255, 255, 255);
+    font-weight: bold;
+}
+.portfolio-image{
+    width: 25%;
+}
